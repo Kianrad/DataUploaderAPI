@@ -1,0 +1,12 @@
+/Users/Reza/RiderProjects/FileUploadWebAPI/DataUploadAPI.Service/bin/Debug/netcoreapp2.2/DataUploadAPI.Service.deps.json
+/Users/Reza/RiderProjects/FileUploadWebAPI/DataUploadAPI.Service/bin/Debug/netcoreapp2.2/DataUploadAPI.Service.dll
+/Users/Reza/RiderProjects/FileUploadWebAPI/DataUploadAPI.Service/bin/Debug/netcoreapp2.2/DataUploadAPI.Service.pdb
+/Users/Reza/RiderProjects/FileUploadWebAPI/DataUploadAPI.Service/bin/Debug/netcoreapp2.2/DataUploadAPI.Data.dll
+/Users/Reza/RiderProjects/FileUploadWebAPI/DataUploadAPI.Service/bin/Debug/netcoreapp2.2/DataUploadAPI.Data.pdb
+/Users/Reza/RiderProjects/FileUploadWebAPI/DataUploadAPI.Service/obj/Debug/netcoreapp2.2/DataUploadAPI.Service.csprojAssemblyReference.cache
+/Users/Reza/RiderProjects/FileUploadWebAPI/DataUploadAPI.Service/obj/Debug/netcoreapp2.2/DataUploadAPI.Service.csproj.CoreCompileInputs.cache
+/Users/Reza/RiderProjects/FileUploadWebAPI/DataUploadAPI.Service/obj/Debug/netcoreapp2.2/DataUploadAPI.Service.AssemblyInfoInputs.cache
+/Users/Reza/RiderProjects/FileUploadWebAPI/DataUploadAPI.Service/obj/Debug/netcoreapp2.2/DataUploadAPI.Service.AssemblyInfo.cs
+/Users/Reza/RiderProjects/FileUploadWebAPI/DataUploadAPI.Service/obj/Debug/netcoreapp2.2/DataUploadAPI.Service.csproj.CopyComplete
+/Users/Reza/RiderProjects/FileUploadWebAPI/DataUploadAPI.Service/obj/Debug/netcoreapp2.2/DataUploadAPI.Service.dll
+/Users/Reza/RiderProjects/FileUploadWebAPI/DataUploadAPI.Service/obj/Debug/netcoreapp2.2/DataUploadAPI.Service.pdb

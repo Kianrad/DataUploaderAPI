@@ -1,0 +1,130 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/Reza/RiderProjects/FileUploadWebAPI/DataUploadAPI.Domain/DataUploadAPI.Domain.csproj": {}
+  },
+  "projects": {
+    "/Users/Reza/RiderProjects/FileUploadWebAPI/DataUploadAPI.Data/DataUploadAPI.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/Reza/RiderProjects/FileUploadWebAPI/DataUploadAPI.Data/DataUploadAPI.Data.csproj",
+        "projectName": "DataUploadAPI.Data",
+        "projectPath": "/Users/Reza/RiderProjects/FileUploadWebAPI/DataUploadAPI.Data/DataUploadAPI.Data.csproj",
+        "packagesPath": "/Users/Reza/.nuget/packages/",
+        "outputPath": "/Users/Reza/RiderProjects/FileUploadWebAPI/DataUploadAPI.Data/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/Reza/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://www.myget.org/F/efcore-mongodb/api/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[2.2.6, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "/Users/Reza/RiderProjects/FileUploadWebAPI/DataUploadAPI.Domain/DataUploadAPI.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/Reza/RiderProjects/FileUploadWebAPI/DataUploadAPI.Domain/DataUploadAPI.Domain.csproj",
+        "projectName": "DataUploadAPI.Domain",
+        "projectPath": "/Users/Reza/RiderProjects/FileUploadWebAPI/DataUploadAPI.Domain/DataUploadAPI.Domain.csproj",
+        "packagesPath": "/Users/Reza/.nuget/packages/",
+        "outputPath": "/Users/Reza/RiderProjects/FileUploadWebAPI/DataUploadAPI.Domain/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/Reza/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://www.myget.org/F/efcore-mongodb/api/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {
+              "/Users/Reza/RiderProjects/FileUploadWebAPI/DataUploadAPI.Data/DataUploadAPI.Data.csproj": {
+                "projectPath": "/Users/Reza/RiderProjects/FileUploadWebAPI/DataUploadAPI.Data/DataUploadAPI.Data.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.AspNetCore.WebUtilities": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.Extensions.Caching.Memory": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.2, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}

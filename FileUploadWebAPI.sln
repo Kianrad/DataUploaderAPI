@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataUploadAPI.API", "DataUploadAPI.API\src\DataUploadAPI.API.csproj", "{F7D2D2B7-8FD1-4B70-A861-595A77C09638}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataUploadAPI.Data", "DataUploadAPI.Data\DataUploadAPI.Data.csproj", "{0FD24B15-8D17-4B3C-AC01-C2A3D695FCC6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataUploadAPI.Business", "DataUploadAPI.Business\DataUploadAPI.Business.csproj", "{99A5A1E2-BC6D-4C87-89AE-A5C541998AA4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataUploadAPI.MSUnitTest", "DataUploadAPI.MSUnitTest\DataUploadAPI.MSUnitTest.csproj", "{6C3F8355-C25B-4DDA-8E23-71C17C738C65}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F7D2D2B7-8FD1-4B70-A861-595A77C09638}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7D2D2B7-8FD1-4B70-A861-595A77C09638}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7D2D2B7-8FD1-4B70-A861-595A77C09638}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7D2D2B7-8FD1-4B70-A861-595A77C09638}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0FD24B15-8D17-4B3C-AC01-C2A3D695FCC6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0FD24B15-8D17-4B3C-AC01-C2A3D695FCC6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0FD24B15-8D17-4B3C-AC01-C2A3D695FCC6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0FD24B15-8D17-4B3C-AC01-C2A3D695FCC6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{99A5A1E2-BC6D-4C87-89AE-A5C541998AA4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99A5A1E2-BC6D-4C87-89AE-A5C541998AA4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99A5A1E2-BC6D-4C87-89AE-A5C541998AA4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99A5A1E2-BC6D-4C87-89AE-A5C541998AA4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6C3F8355-C25B-4DDA-8E23-71C17C738C65}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C3F8355-C25B-4DDA-8E23-71C17C738C65}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C3F8355-C25B-4DDA-8E23-71C17C738C65}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C3F8355-C25B-4DDA-8E23-71C17C738C65}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

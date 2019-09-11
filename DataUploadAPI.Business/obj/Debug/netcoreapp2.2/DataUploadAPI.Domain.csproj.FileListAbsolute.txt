@@ -1,0 +1,9 @@
+/Users/Reza/RiderProjects/FileUploadWebAPI/DataUploadAPI.Domain/bin/Debug/netcoreapp2.2/DataUploadAPI.Domain.deps.json
+/Users/Reza/RiderProjects/FileUploadWebAPI/DataUploadAPI.Domain/bin/Debug/netcoreapp2.2/DataUploadAPI.Domain.dll
+/Users/Reza/RiderProjects/FileUploadWebAPI/DataUploadAPI.Domain/bin/Debug/netcoreapp2.2/DataUploadAPI.Domain.pdb
+/Users/Reza/RiderProjects/FileUploadWebAPI/DataUploadAPI.Domain/obj/Debug/netcoreapp2.2/DataUploadAPI.Domain.csprojAssemblyReference.cache
+/Users/Reza/RiderProjects/FileUploadWebAPI/DataUploadAPI.Domain/obj/Debug/netcoreapp2.2/DataUploadAPI.Domain.csproj.CoreCompileInputs.cache
+/Users/Reza/RiderProjects/FileUploadWebAPI/DataUploadAPI.Domain/obj/Debug/netcoreapp2.2/DataUploadAPI.Domain.AssemblyInfoInputs.cache
+/Users/Reza/RiderProjects/FileUploadWebAPI/DataUploadAPI.Domain/obj/Debug/netcoreapp2.2/DataUploadAPI.Domain.AssemblyInfo.cs
+/Users/Reza/RiderProjects/FileUploadWebAPI/DataUploadAPI.Domain/obj/Debug/netcoreapp2.2/DataUploadAPI.Domain.dll
+/Users/Reza/RiderProjects/FileUploadWebAPI/DataUploadAPI.Domain/obj/Debug/netcoreapp2.2/DataUploadAPI.Domain.pdb

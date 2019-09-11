@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="$USER_HOME$/.nuget/packages/mstest.testadapter/1.3.2/build/_common/Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll" t="Include" />
+    <e p="$USER_HOME$/.nuget/packages/mstest.testadapter/1.3.2/build/_common/Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll" t="Include" />
+    <e p="$USER_HOME$/.nuget/packages/mstest.testadapter/1.3.2/build/netcoreapp1.0/Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll" t="Include" />
+    <e p="$USER_HOME$/Library/Caches/Rider2019.2/extResources" t="IncludeRecursive" />
+    <e p="$USER_HOME$/Library/Caches/Rider2019.2/resharper-host/local/Transient/ReSharperHost/v192/SolutionCaches/_FileUploadWebAPI.1052092947.00" t="ExcludeRecursive" />
+    <e p="$PROJECT_DIR$" t="IncludeFlat">
+      <e p="DataUploadAPI.API/src" t="IncludeRecursive">
+        <e p=".dockerignore" t="Include" />
+        <e p="appsettings.Development.json" t="Include" />
+        <e p="appsettings.json" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Configurations" t="Include">
+          <e p="AppSettings.cs" t="Include" />
+          <e p="ConfigureAppSettings.cs" t="Include" />
+          <e p="ConfigureConnections.cs" t="Include" />
+          <e p="ConfigureJsonWriter.cs" t="Include" />
+          <e p="ServicesConfiguration.cs" t="Include" />
+        </e>
+        <e p="Controllers" t="Include">
+          <e p="HomeController.cs" t="Include" />
+          <e p="v1" t="Include">
+            <e p="ProductController.cs" t="Include" />
+          </e>
+        </e>
+        <e p="CustomAttributes" t="Include">
+          <e p="DisableFormValueModelBindingAttribute.cs" t="Include" />
+        </e>
+        <e p="DataUploadAPI.API.csproj" t="IncludeRecursive" />
+        <e p="Dockerfile" t="Include" />
+        <e p="Extentions" t="Include">
+          <e p="ExceptionMiddlewareExtensions.cs" t="Include" />
+        </e>
+        <e p="Helpers" t="Include">
+          <e p="MultiPartFileHelper.cs" t="Include" />
+        </e>
+        <e p="JsonFiles" t="Include">
+          <e p="2897ad97-9be0-4896-928a-f4a69b053033.json" t="Include" />
+          <e p="6d8f5975-25b3-4a0d-9463-894ce5c6512b.json" t="Include" />
+          <e p="7e919193-06e0-4fc2-9fcb-8e9bf1c511e3.json" t="Include" />
+          <e p="92f3f3ff-34c9-4b2d-935f-ffdde1963b71.json" t="Include" />
+          <e p="c594774f-8807-4381-a7f3-fe797f8e1386.json" t="Include" />
+        </e>
+        <e p="Models" t="Include">
+          <e p="ErrorDetails.cs" t="Include" />
+          <e p="ResultResponse.cs" t="Include" />
+        </e>
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp2.2" t="Include">
+              <e p="DataUploadAPI.API.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Program.cs" t="Include" />
+        <e p="Startup.cs" t="Include" />
+        <e p="wwwroot" t="Include" />
+      </e>
+      <e p="DataUploadAPI.Business" t="IncludeRecursive">
+        <e p="ApiModels" t="Include">
+          <e p="CategoryApiModel.cs" t="Include" />
+          <e p="ProductApiModel.cs" t="Include" />
+        </e>
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Contracts" t="Include">
+          <e p="IDataImporterService.cs" t="Include" />
+          <e p="IDataImportHandler.cs" t="Include" />
+          <e p="IDataUploadService.cs" t="Include" />
+          <e p="IJsonReaderWriterService.cs" t="Include" />
+          <e p="IMultiPartStreamReaderService.cs" t="Include" />
+        </e>
+        <e p="DataUploadAPI.Business.csproj" t="IncludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp2.2" t="Include">
+              <e p="DataUploadAPI.Business.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Services" t="Include">
+          <e p="DataImporterService.cs" t="Include" />
+          <e p="DataUploadService.cs" t="Include" />
+          <e p="DataUploadServiceCategory.cs" t="Include" />
+          <e p="DataUploadServiceProduct.cs" t="Include" />
+          <e p="DBDataImporterService.cs" t="Include" />
+          <e p="FileReaderService.cs" t="Include" />
+          <e p="JsonDataImporterService.cs" t="Include" />
+          <e p="JsonReaderWriterService.cs" t="Include" />
+          <e p="MultiPartFileStreamReaderService.cs" t="Include" />
+        </e>
+      </e>
+      <e p="DataUploadAPI.Data" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Configurations" t="Include">
+          <e p="CategoryConfiguration.cs" t="Include" />
+          <e p="ProductConfiguration.cs" t="Include" />
+        </e>
+        <e p="Contracts" t="Include">
+          <e p="ICategoryRepository.cs" t="Include" />
+          <e p="IProductRepository.cs" t="Include" />
+        </e>
+        <e p="DataUploadAPI.Data.csproj" t="IncludeRecursive" />
+        <e p="DataUploadContext.cs" t="Include" />
+        <e p="Entities" t="Include">
+          <e p="Category.cs" t="Include" />
+          <e p="Product.cs" t="Include" />
+        </e>
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp2.2" t="Include">
+              <e p="DataUploadAPI.Data.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Repositories" t="Include">
+          <e p="CategoryRepository.cs" t="Include" />
+          <e p="ProductRepository.cs" t="Include" />
+        </e>
+      </e>
+      <e p="DataUploadAPI.MSUnitTest" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="DataUploadAPI.MSUnitTest.csproj" t="IncludeRecursive" />
+        <e p="MultiPartFileStreamReaderServiceTest.cs" t="Include" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp2.2" t="Include">
+              <e p="DataUploadAPI.MSUnitTest.AssemblyInfo.cs" t="Include" />
+              <e p="DataUploadAPI.MSUnitTest.Program.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+      </e>
+      <e p="FileUploadWebAPI.sln" t="IncludeFlat" />
+      <e p="packages" t="ExcludeRecursive" />
+    </e>
+  </component>
+</project>
