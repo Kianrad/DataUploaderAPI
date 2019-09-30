@@ -33,24 +33,15 @@ namespace DataUploadAPI.API.Controllers.v1
 
         [HttpPost]
         [DisableFormValueModelBinding]
-        public async Task<ActionResult> Upload(CancellationToken ct)
+        [IsMultiPartContent]
+        public async Task<ActionResult<ResultResponse>> Upload(CancellationToken ct)
         {
-
             var context = HttpContext;
-            if (!Helpers.MultiPartFileHelper.IsMultipartContentType(context.Request.ContentType))
-            {
-                return NotFound();
-            }
-
             FileReaderService fileReaderService = new FileReaderService(_importerService,_multiPartStreamReaderService,context.Request.Body);
-            var result = await fileReaderService.ReadFileAsync(ct);
-
-            var resultObj = new ResultResponse()
+            return new ResultResponse()
             {
-                ParsedRows = result
+                ParsedRows = await fileReaderService.ReadFileAsync(ct)
             };
-
-            return Ok(resultObj);
         }
         
         
